@@ -1,0 +1,16 @@
+A web based programming tool can be used. Such as the ESP Web Tools:
+
+https://adafruit.github.io/Adafruit_WebSerial_ESPTool/
+
+https://chromewebstore.google.com/detail/esp-tool/mgbbldhpaelphccfkikdkagaahblofih
+
+The files to be uploaded to ESP32 are:
+
+bootloader.bin to address: 0x1000
+partition-table.bin to address: 0x8000 
+touchdro-diy-universal-1.6.bin to address: 0x10000
+
+The Touchdro app can be downloaded at the play store.
+
+
+
